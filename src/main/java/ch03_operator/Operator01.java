@@ -6,7 +6,7 @@ package ch03_operator;
         ex) 한 단어 짜리 : Operator01
         ex) 복수 단어 : OperatorTestResult      -> Pascal Case는 클래스 명명 규칙에 해당됩니다.
  */
-public class Main {
+public class Operator01 {
     public static void main(String[] args) {
         // 변수 선언 및 초기화
         int i = 10;
@@ -73,5 +73,6 @@ public class Main {
         int age = 10;
         System.out.println("제 나이는 " + age + "살입니다.");
         System.out.println("내년에는 " + (age + 1) + "살이 됩니다.");
+        // Operator02 생성
     }
 }
