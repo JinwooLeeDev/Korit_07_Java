@@ -136,10 +136,9 @@ public class BmiCalc {
         System.out.println("=====================================");
 
         Person person = Person.builder()
-                        .name("김일").weight(65).height(168).build();
+                        .name(name).weight(weight).height(height).build();
 
 
         bmiCalc.calcBmi(person);
-
     }
 }
